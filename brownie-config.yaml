@@ -1,0 +1,4 @@
+# brownie always finds this file before running the code. 
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}  #dollar indicates this is an environment variable.
